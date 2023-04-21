@@ -6,8 +6,8 @@ These are little experiments as I learn some basics. I'm a noob, just exploring.
 
 These programs were developed and tested on a machine with the following specifications:
 
-- macOS version: Darwin Kernel Version 22.3.0
-- Processor: ARM64_T8103
+- macOS version: Ventura 13.2.1
+- Processor: Apple M1
 
 Please note that your mileage may vary, and these programs may not work on all systems. If you encounter any issues, you're on your own.
 
