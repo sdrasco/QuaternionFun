@@ -21,7 +21,7 @@ This program demonstrates how to use quaternions to rotate a cube in 3D space. I
 
 ## LitCube
 
-This program is similar to `HelloQuaternion`, but adds lighting and allows the cube to be dragged around. It uses the same libraries as `HelloQuaternion` for window management and OpenGL extension loading.
+This program is similar to `HelloQuaternion`, but adds lighting. It uses the same libraries as `HelloQuaternion` for window management and OpenGL extension loading.
 
 ### Building and Running
 
