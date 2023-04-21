@@ -12,7 +12,13 @@ BINS = $(patsubst $(SRC_DIR)/%.cpp,$(BIN_DIR)/%,$(SRCS))
 
 all: $(BINS)
 
-$(BIN_DIR)/%: $(SRC_DIR)/%.cpp | $(BIN_DIR)
+$(BIN_DIR)/HelloOpenGL: $(SRC_DIR)/HelloOpenGL.cpp | $(BIN_DIR)
+	$(CXX) $(CXXFLAGS) $(INCLUDES) $(LIBS) $< -o $@
+
+$(BIN_DIR)/HelloQuaternion: $(SRC_DIR)/HelloQuaternion.cpp | $(BIN_DIR)
+	$(CXX) $(CXXFLAGS) $(INCLUDES) $(LIBS) $< -o $@
+
+$(BIN_DIR)/LitCube: $(SRC_DIR)/LitCube.cpp | $(BIN_DIR)
 	$(CXX) $(CXXFLAGS) $(INCLUDES) $(LIBS) $< -o $@
 
 $(BIN_DIR):
@@ -20,3 +26,4 @@ $(BIN_DIR):
 
 clean:
 	rm -rf $(BIN_DIR)
+
