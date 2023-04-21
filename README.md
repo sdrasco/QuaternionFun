@@ -40,6 +40,11 @@ This code specifies that the cube should rotate around the Y-axis at a rate of 5
 
 To make the dragging behavior more intuitive, you could consider updating the rotation axis based on the cube's position, or implementing a separate rotation control that uses mouse input. However, such modifications would require a more complex implementation.
 
+## DragLitCat
+
+Same as `DragLitCube` but now instead of a cube, we use a laughable approximation of a cat.  Honestly, the cube might be a better approximation.
+
+
 ### Building and Running
 
 To build the programs, you can use the provided Makefile by running `make` in the root directory of the project.

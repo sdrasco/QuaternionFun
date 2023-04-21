@@ -24,6 +24,9 @@ $(BIN_DIR)/LitCube: $(SRC_DIR)/LitCube.cpp | $(BIN_DIR)
 $(BIN_DIR)/DragLitCube: $(SRC_DIR)/DragLitCube.cpp | $(BIN_DIR)
 	$(CXX) $(CXXFLAGS) $(INCLUDES) $(LIBS) $< -o $@
 
+$(BIN_DIR)/DragLitCat: $(SRC_DIR)/DragLitCat.cpp | $(BIN_DIR)
+	$(CXX) $(CXXFLAGS) $(INCLUDES) $(LIBS) $< -o $@
+
 $(BIN_DIR):
 	mkdir -p $(BIN_DIR)
 
