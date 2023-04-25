@@ -41,7 +41,7 @@ The final cube should look like this, all spinning like...
 
 ## DragLitCat
 
-Same as `DragLitCube` but now instead of a cube, we use a laughable approximation of a cat.  Honestly, the cube might be a better approximation.
+Same as `DragLitCube` but now instead of a cube, we use a laughable approximation of a cat.  I'm too ashamed to show you what it looks like.  Honestly, the cube is a better approximation.
 
 
 ## Building and Running
